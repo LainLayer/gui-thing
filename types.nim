@@ -1,5 +1,3 @@
-# import algorithm
-
 type
     ElementKind* = enum
         Panel  = 0,
@@ -13,7 +11,6 @@ type
         z*: int
         case kind*: ElementKind:
         of Window, Panel:
-            # children*: seq[Element]
             discard
         of Label:
             relation*: int

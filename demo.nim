@@ -1,9 +1,8 @@
-# import nimraylib_now
 import raylib
 import raymath
 import strformat
 import std/random
-import gui2
+import gui
 import strutils
 import tables
 

@@ -4,7 +4,6 @@ import types
 import graphics
 import tables
 import algorithm
-# import std/options
 
 type Drag = enum
     fromOutside, fromInside, notDragging
